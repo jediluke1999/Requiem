@@ -53,12 +53,6 @@ allprojects {
             }
         }
         maven {
-            url = "https://mvnrepository.com/artifact"
-            content {
-                includeGroup 'org.quiltmc'
-            }
-        }
-        maven {
             name = "Appleskin"
             url = "https://maven.ryanliptak.com/"
             content {
